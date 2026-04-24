@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Portifilo from './Component/Portifilo'
-import Hosting from './Component/Hosting'
+// import Hosting from './Component/Hosting'
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Portifilo/>
-      <Hosting/>
+      {/* <Hosting/> */}
     </>
   )
 }
